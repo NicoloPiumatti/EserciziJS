@@ -1,0 +1,13 @@
+#btn{
+    border-color: aqua;
+    background-color: black;
+    color: white;
+    border-width: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#txt{
+    border-radius: 10px;
+    border-color: blue;
+}
