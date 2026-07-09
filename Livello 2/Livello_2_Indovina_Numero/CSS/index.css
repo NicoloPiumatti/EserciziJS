@@ -1,0 +1,24 @@
+label{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#btn{
+    border-radius: 15px;
+    background-color: navy;
+    border: 4px solid crimson;
+    color: whitesmoke;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#tent{
+    border-radius: inherit;
+    border: 3px solid gold;
+    background-color: yellowgreen;
+    color: black;
+    font-weight: bolder;
+    font-size: 8pt;
+    padding: 20px;
+}
