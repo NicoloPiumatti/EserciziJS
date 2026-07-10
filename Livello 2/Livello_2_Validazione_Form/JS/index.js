@@ -6,8 +6,8 @@ function verifica(){
     let message = document.getElementById("message").value;
     if(name === "" || email === "" || message === "")
     {
-        alert("Compilare i campi lasciati vuoti!");
+        console.log("Compilare i campi lasciati vuoti!");
         return;
     } else
-        alert("Compilazione completata, ecco Nome: " + name + " / Email: " + email + " / Message: " + message);
+        console.log("Compilazione completata, ecco Nome: " + name + " / Email: " + email + " / Message: " + message);
 }

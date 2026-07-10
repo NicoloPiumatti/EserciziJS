@@ -1,28 +1,27 @@
 "option strict"
 
 let n = Math.floor(Math.random()*20 + 1);
-console.log(n);
 let cont = 0;
 
 function controlla(){
     let tent = document.getElementById("tent").value;
     if(tent === "" || tent === 0)
     {
-        alert("Errore, inserire un numero tra 1 e 20");
+        console.log("Errore, inserire un numero tra 1 e 20");
         return;
     }
     if(tent > n)
     {
-        alert("Numero troppo alto");
+        console.log("Numero troppo alto");
         cont++;
     } else if (tent < n)
     {
-        alert("Numero troppo basso");
+        console.log("Numero troppo basso");
         cont++;
     } else
     {
         cont++;
-        alert("Hai indovinato! Hai impiegato " + cont + " tentativi");
+        console.log("Hai indovinato! Hai impiegato " + cont + " tentativi");
         return;
     }
 }

@@ -2,5 +2,5 @@
 
 function visMessaggio(){
     let txt = document.getElementById("txt").value;
-    alert("Benvenuto " + txt + ", Scopri la nostra pagina");
+    console.log("Benvenuto " + txt + ", Scopri la nostra pagina");
 }
