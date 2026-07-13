@@ -1,4 +1,4 @@
-"option strict"
+"use strict"
 
 let i = 0;
 

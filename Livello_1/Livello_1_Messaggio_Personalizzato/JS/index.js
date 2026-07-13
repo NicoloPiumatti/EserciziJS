@@ -1,4 +1,4 @@
-"option strict"
+"use strict"
 
 function visMessaggio(){
     let txt = document.getElementById("txt").value;

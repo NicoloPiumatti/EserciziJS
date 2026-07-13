@@ -1,4 +1,4 @@
-"option strict"
+"use strict"
 
 let n = Math.floor(Math.random()*20 + 1);
 let cont = 0;

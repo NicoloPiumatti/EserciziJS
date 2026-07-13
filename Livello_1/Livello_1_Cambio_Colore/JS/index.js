@@ -1,4 +1,4 @@
-"option strict"
+"use strict"
 
 function coloraRosso(){
     document.getElementById("div").style.backgroundColor = "red";

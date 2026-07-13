@@ -1,4 +1,4 @@
-"option strict"
+"use strict"
 
 function aggiungiRiga() {
     let nome = document.getElementById("nome").value;

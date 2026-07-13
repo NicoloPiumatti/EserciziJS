@@ -1,0 +1,20 @@
+#txt{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+#btn{
+    margin-left: 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    font-family: monospace;
+    font-weight: bolder;
+    border: 4px solid blue;
+    padding: 5px;
+}
+
+#btn:hover{
+    transform: scale(1.05);
+}

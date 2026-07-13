@@ -1,4 +1,4 @@
-"option strict"
+"use strict"
 
 function verifica(){
     let name = document.getElementById("name").value;

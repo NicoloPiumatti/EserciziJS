@@ -1,4 +1,4 @@
-"option strict"
+"use strict"
 
 function controlla(){
     let n = document.getElementById("num").value;

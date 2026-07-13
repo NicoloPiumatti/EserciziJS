@@ -1,4 +1,4 @@
-"option strict"
+"use strict"
 
 function visualizza(){
     let n = document.getElementById("n").value;

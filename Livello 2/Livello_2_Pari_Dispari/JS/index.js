@@ -1,4 +1,4 @@
-"option strict"
+"use strict"
 
 function pariOdispari(){
     let n = document.getElementById("parOdisp").value;
