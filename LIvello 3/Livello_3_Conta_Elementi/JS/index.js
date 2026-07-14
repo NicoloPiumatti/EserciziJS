@@ -6,9 +6,9 @@ window.onload = function() {
     for (let i = 0; i < array.length; i++) {
         console.log(array[i]);
     }
-    let bottone = document.getElementById("btn");
-    if (bottone) {
-        bottone.onclick = colpito;
+    let button = document.getElementById("btn");
+    if (button) {
+        button.onclick = colpito;
     }
 }
 
