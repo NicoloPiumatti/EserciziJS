@@ -20,5 +20,4 @@ function colpito() {
         }
     }
     console.log("La parola 'colpito' è stata trovata " + conta + " volte");
-    alert("Esecuzione completata con successo. Trovati: " + conta);
 }
