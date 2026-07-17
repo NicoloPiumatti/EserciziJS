@@ -29,7 +29,17 @@
     let btn = document.createElement("button");
     btn.classList.add("btn");
     btn.innerText = "Reset";
+    btn.style.borderColor = "black";
+    btn.style.margin = "10px";
     container.append(btn);
     btn.addEventListener("click", function () {
-        
+        console.log("Il gioco è stato resettato");
+        somma = 0;
+        for(let i = 0; i < 3; i++)
+        {
+            for(let j = 0; j < 3; j++)
+            {
+                document.getElementById("cella_" + i + "_" + j).innerText = "";
+            }
+        }
     });
