@@ -1,0 +1,16 @@
+body{
+    padding: 50px;
+}
+
+#lbl, #txt, #cronometro, #btn{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#txt, #btn{
+    border-radius: 10px;
+    border: 4px solid black;
+}
+
+#txt{
+    margin: 10px;
+}
